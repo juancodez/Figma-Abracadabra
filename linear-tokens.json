@@ -1,0 +1,38 @@
+{
+  "color": {
+    "primary":           { "$value": "#5e6ad2", "$type": "color" },
+    "primary-hover":     { "$value": "#828fff", "$type": "color" },
+    "primary-focus":     { "$value": "#5e69d1", "$type": "color" },
+    "canvas":            { "$value": "#010102", "$type": "color" },
+    "surface-1":         { "$value": "#0f1011", "$type": "color" },
+    "surface-2":         { "$value": "#141516", "$type": "color" },
+    "surface-3":         { "$value": "#18191a", "$type": "color" },
+    "surface-4":         { "$value": "#191a1b", "$type": "color" },
+    "hairline":          { "$value": "#23252a", "$type": "color" },
+    "hairline-strong":   { "$value": "#34343a", "$type": "color" },
+    "hairline-tertiary": { "$value": "#3e3e44", "$type": "color" },
+    "ink":               { "$value": "#f7f8f8", "$type": "color" },
+    "ink-muted":         { "$value": "#d0d6e0", "$type": "color" },
+    "ink-subtle":        { "$value": "#8a8f98", "$type": "color" },
+    "ink-tertiary":      { "$value": "#62666d", "$type": "color" },
+    "success":           { "$value": "#27a644", "$type": "color" }
+  },
+  "spacing": {
+    "xxs":     { "$value": "4px",  "$type": "dimension" },
+    "xs":      { "$value": "8px",  "$type": "dimension" },
+    "sm":      { "$value": "12px", "$type": "dimension" },
+    "md":      { "$value": "16px", "$type": "dimension" },
+    "lg":      { "$value": "24px", "$type": "dimension" },
+    "xl":      { "$value": "32px", "$type": "dimension" },
+    "xxl":     { "$value": "48px", "$type": "dimension" },
+    "section": { "$value": "96px", "$type": "dimension" }
+  },
+  "radius": {
+    "xs":   { "$value": "4px",    "$type": "dimension" },
+    "sm":   { "$value": "6px",    "$type": "dimension" },
+    "md":   { "$value": "8px",    "$type": "dimension" },
+    "lg":   { "$value": "12px",   "$type": "dimension" },
+    "xl":   { "$value": "16px",   "$type": "dimension" },
+    "pill": { "$value": "9999px", "$type": "dimension" }
+  }
+}

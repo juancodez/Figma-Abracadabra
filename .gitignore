@@ -1,0 +1,26 @@
+# Secrets
+.env
+.env.local
+*.key
+
+# Dependencies
+node_modules/
+
+# Whisper binaries + models (too large for Git; users download their own)
+bin/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temp & logs
+*.log
+*.tmp
+null
+shadcn-demo/
+
+# Build artifacts
+dist/
+build/

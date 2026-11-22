@@ -1,0 +1,19 @@
+{
+  "name": "voice-to-figma",
+  "version": "0.1.0",
+  "description": "Windows voice loop for figma-cli. Say 'Hey Figma, create a button' and it appears.",
+  "type": "module",
+  "bin": {
+    "figma-voice": "./voice.mjs"
+  },
+  "scripts": {
+    "start": "node voice.mjs",
+    "preflight": "node voice.mjs --preflight"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
